@@ -3,10 +3,10 @@
 
 function parOuImpar(x,y){
 
-     if ( x*y%2 ===0) {
-        return 'O numero '+ x*y + ' é par.'
-    } else if ( x*y%2 !==0){
-        return  'O numero '+ x*y+ ' é ímpar.'
+     if ( x/y%2 ===0) {
+        return 'O numero '+ x/y + ' é par.'
+    } else if ( x/y%2 !==0){
+        return  'O numero '+ x/y+ ' é ímpar.'
     }
   }
-console.log(parOuImpar(2,3))
+console.log(parOuImpar(100,2))
