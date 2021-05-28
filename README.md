@@ -35,6 +35,12 @@ o resultado da divisão entre eles. Além disso, se o resto dessa divisão for z
 - Usei a palavra reservada function;
 - nominei a função parOuImpar e os parâmetros x e y;
 - dentro das chaves apliquei uma condicional com if e else para determinar se o resto dessa divisão dos 2 parametros é par ou impar. 
+- dentro dos ( ) do IF você tem que dizer:  a divisão entre x e y der o resto zero. 
+Sinal de divisão é / e o sinal de resto é %. 
+Para saber se o número é par se usa o 2
+Então a divisão entre number1 e number2, seria → number1/number2 
+Para achar o resto da divisão seria → %2
+Para saber se o resultado é zero → ===0
 - caso seja par de um return que é Par
 - senão caso seja impar de um return que é Impar
 - fora das chaves imprima a função parOuImpar e os argumentos;
@@ -74,9 +80,9 @@ b) quando chegar no número 50 interrompa a instrução e pare o loop
 5 - Vamos criar uma calculadora com as 4 operações matemáticas básicas
 
 - Usei a palavra reservada function;
-- nominei a função calculadoraRosa e os parâmetros operacao e num1;
-- dentro das chaves inseri uma variável num2;
+- nominei a função calculadoraRosa e os parâmetros operacao, num1 e num2;
+- dentro das chaves;
 - apliquei uma condicional swicth para que seja possível escolher uma operação aritimética em forma de string: 'soma', 'multiplicacao', 'divisao' e 'subtracao';
 - Usei as  palavras reservadas case, break e default; 
 - fora das chaves imprima a função calculadoraRosa e os argumentos;
-- retornar o resultado da opreção escolhida. 
+- retornar o resultado da opreção escolhida e os numeros inseridos. 

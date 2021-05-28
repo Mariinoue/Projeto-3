@@ -10,8 +10,8 @@ while(boloDeBanana < 60) {
     if(boloDeBanana === 35 || boloDeBanana === 45) {
         console.log("Pulou");
         continue;
-    }
-
+        }
     console.log(`Faça ${boloDeBanana} bolos de Bananas`);
+    
 }
 

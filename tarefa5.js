@@ -4,9 +4,8 @@
 //b) Deverá ser possível passar 2 números para a operação escolhida
 //c) Deverá retornar o resultado e imprimir no console
 
-function calculadoraRosa(operacao,num1){
+function calculadoraRosa(operacao,num1,num2){
     
-    let num2=6
 
     switch(operacao){
         case 'soma':
@@ -26,7 +25,7 @@ function calculadoraRosa(operacao,num1){
     }
     
 }
-console.log(calculadoraRosa('divisão',30))
-console.log(calculadoraRosa('soma',30))
-console.log(calculadoraRosa('multiplicação',30))
-console.log(calculadoraRosa('subtração',30))
+console.log(calculadoraRosa('divisão',30,2))
+console.log(calculadoraRosa('soma',30,2))
+console.log(calculadoraRosa('multiplicação',30,2))
+console.log(calculadoraRosa('subtração',30,2))
